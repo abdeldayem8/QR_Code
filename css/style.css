@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: #D5E1EF;
+}
+html,body{
+    overflow-x: hidden;
+}
+.card{
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    width: 300px;
+   margin: 200px auto;
+}
+@media (max-width:300px){
+    .card{
+        width: 260px;
+    }
+}
+img{
+    max-width: 100%;
+    border-radius: 6px;
+}
+.content {
+    padding: 15px;
+   
+}
+ .content p{
+    color: #666;
+    font-size: 10px; 
+    line-height: 1.6;
+}
+footer{
+    text-align: center;
+   
+}
+footer a{
+    text-decoration: none;
+}
